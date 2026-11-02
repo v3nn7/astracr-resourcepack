@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {"type": "bitmap", "file": "astracr:badge/owner.png", "ascent": 8, "height": 9, "chars": ["\uE000"]},
+    {"type": "bitmap", "file": "astracr:badge/admin.png", "ascent": 8, "height": 9, "chars": ["\uE001"]},
+    {"type": "bitmap", "file": "astracr:badge/moderator.png", "ascent": 8, "height": 9, "chars": ["\uE002"]},
+    {"type": "bitmap", "file": "astracr:badge/helper.png", "ascent": 8, "height": 9, "chars": ["\uE003"]},
+    {"type": "bitmap", "file": "astracr:badge/mvp.png", "ascent": 8, "height": 9, "chars": ["\uE004"]},
+    {"type": "bitmap", "file": "astracr:badge/vip.png", "ascent": 8, "height": 9, "chars": ["\uE005"]},
+    {"type": "bitmap", "file": "astracr:badge/gracz.png", "ascent": 8, "height": 9, "chars": ["\uE006"]}
+  ]
+}
