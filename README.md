@@ -13,6 +13,7 @@ Ikony są generowane przez plugin (zaokrąglone plakietki z napisem), a glify le
 | mvp | `U+E004` |
 | vip | `U+E005` |
 | gracz | `U+E006` |
+| media | `U+E007` |
 
 ## Użycie w astraCR
 
@@ -24,7 +25,7 @@ pack:
 ```
 
 Plugin liczy SHA-1 z lokalnie zbudowanej paczki. Zbudowana z domyślnego `ranks.yml` jest identyczna z plikiem
-w tym repo (SHA-1: `9c880990b20695be8e40480f986516ed12703415`). Jeśli zmienisz rangi, kolory lub napisy, zbuduj paczkę ponownie
+w tym repo (SHA-1: `e2f064068199883fa43a05eb36ac98d44f2f4dbb`). Jeśli zmienisz rangi, kolory lub napisy, zbuduj paczkę ponownie
 (`/astracr pack build`) i wgraj tu `plugins/astraCR/pack/astracr-badges.zip`, inaczej klienci odrzucą paczkę przez
 niezgodny hash.
 
