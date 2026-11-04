@@ -25,9 +25,14 @@ pack:
 ```
 
 Plugin liczy SHA-1 z lokalnie zbudowanej paczki. Zbudowana z domyślnego `ranks.yml` jest identyczna z plikiem
-w tym repo (SHA-1: `e2f064068199883fa43a05eb36ac98d44f2f4dbb`). Jeśli zmienisz rangi, kolory lub napisy, zbuduj paczkę ponownie
+w tym repo (SHA-1: `74fddc59818e644990bd85105d25ad5657778c80`). Jeśli zmienisz rangi, kolory lub napisy, zbuduj paczkę ponownie
 (`/astracr pack build`) i wgraj tu `plugins/astraCR/pack/astracr-badges.zip`, inaczej klienci odrzucą paczkę przez
 niezgodny hash.
+
+## Tła menu
+
+Font `astracr:gui` (`pack-contents/assets/astracr/font/gui.json`) z tłami okien 6- i 3-rzędowych
+(`textures/gui/menu6.png`, `menu3.png`), używanymi w tytułach menu astraCR.
 
 ## Zawartość
 

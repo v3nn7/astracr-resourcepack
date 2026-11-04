@@ -1,0 +1,7 @@
+{
+  "providers": [
+    {"type": "space", "advances": {"\uF000": -8, "\uF001": -169}},
+    {"type": "bitmap", "file": "astracr:gui/menu6.png", "ascent": 13, "height": 222, "chars": ["\uE100"]},
+    {"type": "bitmap", "file": "astracr:gui/menu3.png", "ascent": 13, "height": 168, "chars": ["\uE101"]}
+  ]
+}
