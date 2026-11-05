@@ -1,8 +1,9 @@
 # astraCR resource pack
 
 Publiczna paczka zasobów z ikonami rang dla pluginu **astraCR** (Minecraft 1.21.11, `pack_format` 75).
-Ikony są generowane przez plugin (zaokrąglone plakietki z napisem), a glify leżą w czcionce `minecraft:default`
-(znaki z prywatnego zakresu Unicode `U+E000`+), więc działają w czacie, TAB-ie i przez placeholdery.
+Ikony są generowane przez plugin (zaokrąglone plakietki z napisem), a glify leżą we własnej czcionce `astracr:badge` (znaki z prywatnego zakresu Unicode `U+E000`+).
+Paczka NIE nadpisuje `minecraft:default`, więc nie koliduje z innymi paczkami (ItemsAdder, Nexo itp.).
+Plugin ustawia tę czcionkę w komponentach, więc działa w czacie, TAB-ie i nad głową.
 
 | Ranga | Znak |
 |---|---|
@@ -25,7 +26,7 @@ pack:
 ```
 
 Plugin liczy SHA-1 z lokalnie zbudowanej paczki. Zbudowana z domyślnego `ranks.yml` jest identyczna z plikiem
-w tym repo (SHA-1: `38b80f098d27fa468d876d437c2c300e92c47ee5`). Jeśli zmienisz rangi, kolory lub napisy, zbuduj paczkę ponownie
+w tym repo (SHA-1: `070f659b471f3e72cbd6cdf158a7bbf9496fe35e`). Jeśli zmienisz rangi, kolory lub napisy, zbuduj paczkę ponownie
 (`/astracr pack build`) i wgraj tu `plugins/astraCR/pack/astracr-badges.zip`, inaczej klienci odrzucą paczkę przez
 niezgodny hash.
 
@@ -38,4 +39,4 @@ Font `astracr:gui` (`pack-contents/assets/astracr/font/gui.json`) z tłami okien
 
 - `astracr-badges.zip` – gotowa paczka do pobrania
 - `astracr-badges.zip.sha1` – suma kontrolna
-- `pack-contents/` – ta sama paczka rozpakowana (`pack.mcmeta`, `assets/minecraft/font/default.json`, tekstury w `assets/astracr/textures/badge/`)
+- `pack-contents/` – ta sama paczka rozpakowana (`pack.mcmeta`, `assets/astracr/font/badge.json`, `assets/astracr/font/gui.json`, tekstury w `assets/astracr/textures/badge/`)
