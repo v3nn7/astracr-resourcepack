@@ -26,7 +26,7 @@ pack:
 ```
 
 Plugin liczy SHA-1 z lokalnie zbudowanej paczki. Zbudowana z domyślnego `ranks.yml` jest identyczna z plikiem
-w tym repo (SHA-1: `070f659b471f3e72cbd6cdf158a7bbf9496fe35e`). Jeśli zmienisz rangi, kolory lub napisy, zbuduj paczkę ponownie
+w tym repo (SHA-1: `ad7c777b92aca72a0bb720c46396b7af2fe97f51`). Jeśli zmienisz rangi, kolory lub napisy, zbuduj paczkę ponownie
 (`/astracr pack build`) i wgraj tu `plugins/astraCR/pack/astracr-badges.zip`, inaczej klienci odrzucą paczkę przez
 niezgodny hash.
 
